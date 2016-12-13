@@ -28,7 +28,7 @@ plot(t,x_sgnnou,'r:');
 xlabel('Timp (s)');
 ylabel('Amplitudine');
 
-Fr = -N*Frecventa:Frecventa:N*Frecventa; 
+Fr = -N*F:F:N*F; 
 figure(2); 
 stem(Fr,abs(X)); 
 title('Spectrul lui x(t)');
